@@ -33,5 +33,6 @@ func CreateConection() *sql.DB {
 		log.Fatal(pingErr)
 	}
 	fmt.Println("Db Connected!")
+
 	return db
 }

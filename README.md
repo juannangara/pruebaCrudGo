@@ -12,4 +12,8 @@ para el repositorio de estudiantes se realizaron las correspondientes operacione
 
 el framework utilizado para exponer el api es Gin Gonic, utilizando este se crearon las rutas y se lee el contexto de cada operacion a realizar.
 
-para utilizar el programa primero se debe logear accediendo al endpoint /login
+para utilizar el programa primero se debe logear accediendo al endpoint /login el cual responde con el token necesario para poder ejecutar los demas endponits
+
+-----------
+
+Importante: en las variables de entorno esta las credenciales para acceder a la base de datos, la aplicacion de momento no soporta iniciar sin que la base de datos este creada. entonces es necesario crearla primero con el nombre de school y ejecutar el script que esta en Docs
