@@ -2,9 +2,9 @@
 
 Para realizar esta prueba de crud inicalmente se diseño un modelo relacion-entidad de la base de datos
 
-[modelo](Docs\school.png)
-
 Poseteriormente se realizo la cracion de una base de datos en mi local llamada school y un script para crear las tablas anteriormente diseñadas en el modelo.
+
+El modelo y el script de creacion estan anexados en la carpeta Docs
 
 se opto por una arquitectura clean, agrupando los repositorios, servicios y handlers
 
